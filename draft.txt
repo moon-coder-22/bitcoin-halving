@@ -1,0 +1,5 @@
+halvings.halv4.mined = [6.25, 3.125];
+halvings.halv5.mined = [3.125, 1.5625];
+halvings.halv6.mined = [1.5625, 0.78125];
+halvings.halv7.mined = [0.78125, 0.390625];
+halvings.halv8.mined = [0.390625, 0.1953125];

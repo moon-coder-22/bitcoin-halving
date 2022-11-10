@@ -1,3 +1,108 @@
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    border-spacing: 0px;
+}
+
 body {
+    padding: 10px;
+    margin: 10px; 
+    font-family: 'Roboto', sans-serif;
     background-color: bisque;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    font-size: 18px;
+    margin: 16px 0;
+
+}
+
+.head {
+    background-color: rgba(1, 1, 1, 0.7);
+    padding: 45px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+    color: yellow;
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.description {
+    padding-top: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.btc-logo {
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+
+img {
+    object-fit: over;
+}
+
+.countdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    min-width: 320px;
+}
+
+.countdown-item {
+    background-color: #49a6e9;
+    padding: 8px;
+    min-width: 105px;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.buttons {
+    padding: 5px;
+    margin: 15px;
+}
+
+.halving {
+    padding: 6px;
+    border-radius: 9px;
+    background-color: black;
+    color: orange;
+    min-width: 120px;
+    cursor: pointer;
+}
+
+.halving-off {
+    background-color: orange;
+    color: black;
+}
+
+.number {
+    color: orange;
+    font-weight: bold;
+}
+
+hr {
+    margin: 10px;
 }

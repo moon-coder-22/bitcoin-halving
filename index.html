@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bitcoin Halving Countdown</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h1>Bitcoin Halving Countdown</h1>
-    <p>Bitcoin block reward will decrease from 6.25 to 3.125 coins in approximately</p>
-    <div class="buttons">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    </div>
-    <div class="timer">
-        
+  <body>
+    <div class="container">
+      <div class="head">
+        <div class="title">
+          <img src="bitcoin.png" alt="bitcoin" class="btc-logo" />Bitcoin Halving
+          Countdown
+        </div>
+        <div class="description">
+          <p>
+            Bitcoin block reward will decrease from <br><span class="number" id="now">6.25</span> to <span class="number" id="after">3.125</span> coins in
+            approximately. <hr>
+            BTC mined: <span class="number" id="mined">96.875</span>%
+          </p>
+        </div>
+        <div class="buttons">
+            <button class="halving halving-off" id="halv4" data-type="on">4th halving</button>
+            <button class="halving" id="halv5" data-type="off">5th halving</button>
+            <button class="halving" id="halv6" data-type="off">6th halving</button>
+            <button class="halving" id="halv7" data-type="off">7th halving</button>
+            <button class="halving" id="halv8" data-type="off">8th halving</button>
+          </div>
+      </div>
+
+
+
+      <div class="countdown">
+        <div class="countdown-item">
+            <h4 class="yars">20</h4>
+            <span>Years</span>
+          </div>
+        <div class="countdown-item">
+          <h4 class="days">20</h4>
+          <span>Days</span>
+        </div>
+        <div class="countdown-item">
+          <h4 class="hours">10</h4>
+          <span>Hours</span>
+        </div>
+        <div class="countdown-item">
+          <h4 class="minutes">15</h4>
+          <span>Minutes</span>
+        </div>
+        <div class="countdown-item">
+          <h4 class="seconds">33</h4>
+          <span>Seconds</span>
+        </div>
+      </div>
     </div>
 
-    
-<script src="app.js"></script>
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
